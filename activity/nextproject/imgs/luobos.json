@@ -1,0 +1,36 @@
+{"frames": {
+
+"luobo1.png":
+{
+	"frame": {"x":1,"y":1,"w":222,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":222,"h":297},
+	"sourceSize": {"w":225,"h":300}
+},
+"luobo2.png":
+{
+	"frame": {"x":1,"y":604,"w":205,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":312},
+	"sourceSize": {"w":205,"h":312}
+},
+"luobo3.png":
+{
+	"frame": {"x":1,"y":300,"w":219,"h":302},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":219,"h":302},
+	"sourceSize": {"w":219,"h":304}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "luobos.png",
+	"format": "RGBA8888",
+	"size": {"w":224,"h":917},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e51a87a88342ca3aa8149eeaee29f309:1a1a2c9a1d730ec3eea2028f3cda3aa4:61908723a794117a34399cd686d70617$"
+}
+}
