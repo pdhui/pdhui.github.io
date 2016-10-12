@@ -1,0 +1,36 @@
+{"frames": {
+
+"luobon1.png":
+{
+	"frame": {"x":1,"y":333,"w":224,"h":302},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":224,"h":302},
+	"sourceSize": {"w":224,"h":302}
+},
+"luobon2.png":
+{
+	"frame": {"x":1,"y":637,"w":211,"h":318},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":211,"h":318},
+	"sourceSize": {"w":211,"h":318}
+},
+"luobon3.png":
+{
+	"frame": {"x":1,"y":1,"w":239,"h":330},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":239,"h":330},
+	"sourceSize": {"w":239,"h":330}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "luobosn.png",
+	"format": "RGBA8888",
+	"size": {"w":241,"h":956},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5c6b7fc58bff121af918041f7ce46e8c:325669cb7f3def3d1041371b46b7fe00:f09ef7ef6dc65545381cce27b2ad2694$"
+}
+}
