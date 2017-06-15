@@ -1,8 +1,8 @@
-# »î¶¯ºÏ¼¯
+# æ´»åŠ¨åˆé›†
 ----
-* [ËÑºü»î¶¯](https://bro-res2.flyme.cn/resources/activity/sohu/index.html?campaignId=20&turnTo=b&business=2&pkg=1)
-* [ÓŞÈË½Ú»î¶¯](https://bro-res2.flyme.cn/resources/activity/foolday-bro/index.html?campaignId=48&business=2)
-* [¾©¶«»î¶¯](https://act-app.mzres.com/resources/activity/jd/index.html?turnTo=b&campaignId=5&pkg=1)
+* [æœç‹æ´»åŠ¨](https://bro-res2.flyme.cn/resources/activity/sohu/index.html?campaignId=20&turnTo=b&business=2&pkg=1)
+* [æ„šäººèŠ‚æ´»åŠ¨](https://bro-res2.flyme.cn/resources/activity/foolday-bro/index.html?campaignId=48&business=2)
+* [äº¬ä¸œæ´»åŠ¨](https://act-app.mzres.com/resources/activity/jd/index.html?turnTo=b&campaignId=5&pkg=1)
 
-×¢£ºµã»÷°´Å¥Í£ÁôÔÚÓÎÏ·×¼±¸ÖĞÊ±£¬¿ÉÔÚä¯ÀÀÆ÷µØÖ·À¸ÊäÈë Õâ¸ö javascript: window.notifyAppStatus(1, null, true, 'STATE_PREPARING', 1);
-ÊÖ¶¯¸´ÖÆ¿ÉÄÜ»á³öÏÖ¸´ÖÆ²»µ½`javascript:` Õâ¸ö±êÊ¶·û£¬½¨ÒéÊÖ¶¯ÊäÈë`javascript:`¡£
+æ³¨ï¼šç‚¹å‡»æŒ‰é’®åœç•™åœ¨æ¸¸æˆå‡†å¤‡ä¸­æ—¶ï¼Œå¯åœ¨æµè§ˆå™¨åœ°å€æ è¾“å…¥ è¿™ä¸ª javascript: window.notifyAppStatus(1, null, true, 'STATE_PREPARING', 1);
+æ‰‹åŠ¨å¤åˆ¶å¯èƒ½ä¼šå‡ºç°å¤åˆ¶ä¸åˆ°`javascript:` è¿™ä¸ªæ ‡è¯†ç¬¦ï¼Œå»ºè®®æ‰‹åŠ¨è¾“å…¥`javascript:`ã€‚
