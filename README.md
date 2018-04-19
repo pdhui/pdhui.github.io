@@ -6,3 +6,6 @@
 
 注：点击按钮停留在游戏准备中时，可在浏览器地址栏输入 这个 javascript: window.notifyAppStatus(1, null, true, 'STATE_PREPARING', 1);
 手动复制可能会出现复制不到`javascript:` 这个标识符，建议手动输入`javascript:`。
+
+# 其它h5游戏
+* [赛车游戏](http://ycan.me/example/racecar/index.html)
