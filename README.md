@@ -8,4 +8,4 @@
 手动复制可能会出现复制不到`javascript:` 这个标识符，建议手动输入`javascript:`。
 
 # 其它h5游戏
-* [赛车游戏](http://ycan.me/example/racecar/index.html)
+* [赛车游戏](./example/racecar/index.html)
