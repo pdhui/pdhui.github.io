@@ -9,3 +9,6 @@
 
 # 其它h5游戏
 * [赛车游戏](./example/racecar/index.html)
+
+# 小工具
+* [前端开发辅助工具](./example/frontdevtool/index.html)
