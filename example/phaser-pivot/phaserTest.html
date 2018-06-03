@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="phaser-minimum-debug.js"></script>
+  <title>phaser pivot</title>
+  </head>
+<body>
+   <script>
+
+var game = new Phaser.Game(800, 600, Phaser.CANVAS,
+          'phaser-example', {
+            preload: preload, create: create, update: update, render: render
+          });
+
+function preload() {
+  game.stage.disableVisibilityChange = true;
+
+  game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+
+}
+
+var arrow4,arrow5,arrow6;
+
+function create() {
+
+    game.stage.backgroundColor = '#3e5f96';
+
+    //第一个矩形
+    let a4Pos = {x: 50, y: 250};
+
+    arrow4 = game.add.graphics(0, 0);
+    arrow4.lineStyle(2, 0xFF0000, 0.8);
+    // arrow4.beginFill(0xFF700B, 1);
+    arrow4.drawRect(0, 0, 100, 100);
+
+    arrow4.pivot.set(arrow4.width/2, arrow4.height/2);
+    setSpritePosWithPivot(arrow4, 50, 250);
+
+    //第二个矩形
+    let a5Pivot = {x: 120, y: 120};
+
+    arrow5 = game.add.graphics(0, 0);
+    arrow5.lineStyle(2, 0xFF0000, 0.8);
+    arrow5.drawRect(0, 0, 100, 100);
+
+    arrow5.pivot = a5Pivot;
+
+    setSpritePosWithPivot(arrow5, 200, 250);
+
+    //第三个矩形
+    arrow6 = game.add.graphics(550, 250);
+    arrow6.lineStyle(2, 0xFF0000, 0.8);
+    arrow6.drawRect(0, 0, 100, 100);
+
+    arrow6.pivot.set(arrow6.width/2, arrow6.height/2);
+
+    //标注关键点
+    game.add.graphics(a4Pos.x, a4Pos.y)
+      .lineStyle(1, 0X00FF00, 0.5)
+      .drawRect(0, 0, 100, 100);
+
+    game.add.graphics(200, 250)
+      .lineStyle(1, 0X00FF00, 0.5)
+      .drawRect(0, 0, 100, 100);
+
+    game.add.graphics(arrow6.x, arrow6.y)
+      .lineStyle(1, 0X00FF00, 0.5)
+      .drawRect(0, 0, 100, 100);
+
+    var style = { font: "bold 12px Arial", fill: "#fff", boundsAlignH: "center", boundsAlignV: "middle" };
+
+
+    game.add.text(50, 200, "矩形宽高：100 x 100", style)
+
+    var text = game.add.text(arrow4.x, arrow4.y, "设置pivot(50,50)后的原点", style);
+    text.anchor.set(0.5,1);
+
+
+
+
+    game.add.text(arrow5.x, arrow5.y, "设置pivot("+ a5Pivot.x+","+ a5Pivot.y +")后的原点", style).anchor.set(0.5,1);
+
+    game.add.text(arrow6.x, arrow6.y, "只设置pivot值，没有对position进行处理，矩形会偏移", style).anchor.set(0.5,1);
+
+}
+
+function setSpritePosWithPivot(sprite,posx, posy){
+  let {x,y} = sprite.pivot;
+
+  sprite.position.set(posx + x, posy + y);
+}
+function update() {
+
+  arrow4.rotation += 0.01;
+  arrow5.rotation += 0.01;
+  arrow6.rotation += 0.01;
+}
+
+function render() {
+  game.debug.geom(new Phaser.Circle(50, 250, 5), '#FF0000');
+  game.debug.geom(new Phaser.Circle(arrow4.x, arrow4.y, 10), '#000');
+  game.debug.geom(new Phaser.Circle(arrow5.x, arrow5.y, 10), '#000');
+  game.debug.geom(new Phaser.Circle(arrow6.x, arrow6.y, 5), '#00FF00');
+
+}
+
+   </script>
+  </body>
+</html>
